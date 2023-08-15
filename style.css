@@ -4,53 +4,84 @@ body {
     
     padding: 0;
     margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
     
 
 }
 
 .header {
     background-color: #1F2937;
-    padding: 0 40px;
-
-
-
+    padding: 0 70px;
+    margin: 0;
     
-    
-    
-    
-
-    
-    
-
 }
 
 .top-bar {
-    font-family: Helvetica, Arial, sans-serif;
+    /* font-family: Helvetica, Arial, sans-serif; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
     padding: 0px 24px;
-    
 }
 
 .header-logo  {
     color: #F9FAF8;
     font-size: 24px;
-    
 }
 
 .header-links {
     color: #E5E7EB;
     font-size: 18px;
-   
-   
-    
-   
 }
 
 .link-space {
     display: flex;
     gap: 18px;
+}
+
+.main-header-section {
+    display: flex;
+    padding: 40px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px;
+    align-content: center;
+    
+
+
+}
+
+
+.main-text {
+    font-size: 48px;
+    font-weight: 800;
+    margin: -1px;
+    color: #F9FAF8;
+
+}
+
+.sub-text {
+    color: #E5E7EB;
+    font-size: 15px;
+    
+}
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    border: thin;
+    font-weight: 800;
+    padding: 6px 25px; 
+}
+
+.Jeb {
+    width: 500px;
+    height: 350px;
+    padding: 30px;
 }
