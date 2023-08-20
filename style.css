@@ -201,4 +201,58 @@ h3 {
     
 }
 
+.section-three {
+    padding: 50px;
+    margin: 50px 50px;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+.action-container {
+    width: 1000px;
+    height: 110px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 30px 10px;
+    padding: 4px;
+    border: #3882F6;
+    border-radius: 15px;
+    color: #E5E7EB
+    
+}
+
+.call-text p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: -10px;
+}
+
+.sign-up {
+    font-weight: 300;
+    
+
+}
+
+.button-div-signup {
+    margin: 10px;
+    padding: 5px;
+    justify-content: flex-start;
+    
+}
+
+.sign-up-button {
+    border: #E5E7EB solid;
+
+}
 
